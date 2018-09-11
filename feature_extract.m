@@ -1,6 +1,6 @@
 % feature_extract, extract features for later use
 % this function only works for vgg16 and resnet
-% for SiaMAC, please refer to its original paper
+% for siaMAC, please refer to its original paper
 function data = feature_extract(datatype,dataset)
 cd ../matconvnet/matlab
 vl_setupnn;
