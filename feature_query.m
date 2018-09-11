@@ -11,7 +11,7 @@ addpath('./utils');
 % in our computer, all dataset images are contained in
 % D:/imagesearch/
 im_folder = ['D:/imagesearch/', dataset, '/'];
-load(['./data/',datatype,'/gnd_', dataset, '.mat']);    
+load(['./data/gnd_', dataset, '.mat']);    
 
 switch datatype
     case 'vgg16'
