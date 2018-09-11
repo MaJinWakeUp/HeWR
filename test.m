@@ -82,11 +82,11 @@ switch dataset_test
         qvecs = preprocess(qvecs);
         qvecs = apply_whiten (qvecs, Xm, eigvec, eigval, dim);
         qvecs = yael_vecs_normalize(qvecs,2,0);
-        load (['./data/',datatype,'/gnd_',dataset_test])
+        load (['./data/gnd_',dataset_test])
         fprintf('end...\n');
         
     case 'holidays'
-        load (['./data/',datatype,'/gnd_',dataset_test])
+        load (['./data/gnd_',dataset_test])
         qvecs = vecs_test(:,qidx);
 end
 
