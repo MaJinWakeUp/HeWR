@@ -21,7 +21,8 @@ There are something you need before you run this program.
     1. Download the pre-trained [vgg-16 model][6] and [resnet model][7] to matconvnet root dir.
 2. Download dataset images.
 3. Download and unzip this repository, the **HeWR** folder and **matconvnet** folder should in a same folder.
-4. Run experiment, the `test.m` is supposed to do the whole procedure. (You may need to change the variable *im_folder* in `feature_extract.m` and `feature_query.m` to location where you store dataset images.)
+4. Run experiment, the `test.m` is supposed to do the whole procedure. 
+( Note: you may need to change the variable *im_folder* in `feature_extract.m` and `feature_query.m` to location where you store dataset images. )
 
 ***
 **If you have any question, please contact:**  
