@@ -1,7 +1,7 @@
 # Introduction
 This is a Matlab implementation of our paper below. Please kindly cite our paper if you find the code is useful.
 
-**Shanmin Pang, Jin Ma, Jianru Xue, Jihua Zhu, Vicente Ordonez, Deep Feature Aggregation and Image Re-ranking with Heat Diffusion for Image Retrieval[J], IEEE Transaction on Multimedia.**
+**Shanmin Pang, Jin Ma, Jianru Xue, Jihua Zhu, Vicente Ordonez, Deep Feature Aggregation and Image Re-ranking with Heat Diffusion for Image Retrieval[J], IEEE Transactions on Multimedia.**
 
 In this repository, we show the image search procedure of our method, HeWR, on three dataset: Holidays, Oxford5k, Paris6k.
 Note: Feature extraction with siaMac is not provided yet, we will add it in later edition.
